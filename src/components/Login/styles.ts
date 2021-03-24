@@ -1,11 +1,15 @@
 import styled from 'styled-components';
 
-export const Box = styled.div`
-  background: var(--orange-1);
+export const Container = styled.main`
+  max-width: 1120px;
+`;
 
+export const Content = styled.div`
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-content: center;
-  align-self: center;
+  flex-direction: column;
+
+  max-width: 600px;
+  min-width: 480px;
+
+  text-align: center;
 `;

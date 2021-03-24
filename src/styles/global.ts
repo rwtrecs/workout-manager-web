@@ -34,6 +34,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
     background: var(--background);
     -webkit-font-smoothing: antialiased;
   }
