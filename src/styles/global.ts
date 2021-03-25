@@ -54,6 +54,10 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 500;
   }
 
+  a:-webkit-any-link {
+    text-decoration: none;
+  }
+
   button {
     cursor: pointer;
   }

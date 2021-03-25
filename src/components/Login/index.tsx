@@ -11,11 +11,13 @@ export function Login() {
 
         <img src={logoImg} alt="Workout Manager (Web)" />
 
-        <input type="email" name="Email" />
-        <input type="password" name="Senha" />
-        <button type="submit">login</button>
+        <form action="" method="post">
+          <input type="email" name="email" placeholder="Email" />
+          <input type="password" name="senha" placeholder="Password" />
+          <button type="submit">login</button>
+        </form>
 
-        <button>register</button>
+        <a href="register/">register</a>
       </Content>
     </Container>
   )
